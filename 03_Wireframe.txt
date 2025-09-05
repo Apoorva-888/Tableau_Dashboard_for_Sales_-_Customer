@@ -1,0 +1,117 @@
+Sales Dashboard - Wireframe Notes (Detailed)
+
+============================================================
+HEADER SECTION
+============================================================
+- Title: "Sales Dashboard"
+- Filters (aligned horizontally at the top):
+  - Year Selector (dropdown)
+  - Product Category Filter (dropdown)
+  - Product Subcategory Filter (dropdown)
+  - Region Filter (dropdown)
+  - State Filter (dropdown)
+  - City Filter (dropdown)
+
+============================================================
+KPI OVERVIEW SECTION
+============================================================
+- Layout: 3 horizontal cards side by side
+- Card 1: Total Sales
+  - Value: $1.2M
+  - Comparison: Previous Year $829K
+- Card 2: Total Profit
+  - Value: $300K
+  - Comparison: Previous Year value (if available)
+- Card 3: Total Quantity Sold
+  - Value: 12K Units
+  - Comparison: Previous Year value (if available)
+
+============================================================
+MONTHLY SALES TREND SECTION
+============================================================
+- Chart Type: Line Chart
+- X-axis: Months (Jan to Dec)
+- Y-axis: Sales values
+- Features:
+  - Highlight highest sales month (e.g., with a colored dot or label)
+  - Highlight lowest sales month
+  - Include both current year and previous year lines for comparison
+
+============================================================
+WEEKLY SALES & PROFIT TREND SECTION
+============================================================
+- Chart Type: Dual Line Chart
+- X-axis: Weeks (Week 1 to Week 52)
+- Y-axis: Sales and Profit values
+- Features:
+  - Overlay average weekly line
+  - Highlight weeks above average (e.g., green markers)
+  - Highlight weeks below average (e.g., red markers)
+
+============================================================
+PRODUCT SUBCATEGORY COMPARISON SECTION
+============================================================
+- Chart Type: Bar Chart
+- X-axis: Product Subcategories
+- Y-axis: Sales values
+- Features:
+  - Grouped bars for current year and previous year
+  - Color-coded bars for easy comparison
+
+============================================================
+CUSTOMER DISTRIBUTION SECTION
+============================================================
+- Chart Type: Histogram or Line Chart
+- X-axis: Number of Orders
+- Y-axis: Number of Customers
+- Features:
+  - Show distribution of customers based on order frequency
+  - Identify high-frequency vs low-frequency buyers
+
+============================================================
+TOP CUSTOMERS BY PROFIT SECTION
+============================================================
+- Chart Type: Table
+- Columns:
+  - Rank
+  - Customer Name
+  - Number of Orders
+  - Current Sales
+  - Current Profit
+  - Last Order Date
+- Features:
+  - Sortable columns
+  - Highlight top 3 customers visually
+
+============================================================
+INTERACTIVITY & NAVIGATION SECTION
+============================================================
+- Features:
+  - Interactive charts (clickable elements to filter data)
+  - Dynamic updates based on selected filters
+  - Easy navigation between dashboard views (e.g., tabs or buttons)
+
+============================================================
+SUGGESTED VISUAL ELEMENTS
+============================================================
+- Sparkline: For compact trend visualization in KPI cards
+- Line Chart: For monthly and weekly trends
+- Bar Chart: For subcategory comparisons
+- Histogram: For customer distribution
+- Table: For top customer details
+
+============================================================
+SAMPLE METRICS
+============================================================
+- Previous Year Sales: $829K
+- Current Year Sales: $1.2M
+- Total Profit: $300K
+- Total Quantity: 12K Units
+
+============================================================
+NOTES
+============================================================
+- All sections should be responsive and modular
+- Use consistent color themes for year comparisons (e.g., blue for current year, gray for previous year)
+- Prioritize readability and user-friendly layout
+- Ensure filters apply across all visual components
