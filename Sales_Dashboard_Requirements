@@ -1,0 +1,83 @@
+Sales Dashboard Requirements
+
+------------------------------------------------------------
+Dashboard Purpose
+------------------------------------------------------------
+- Present overview of sales metrics and trends
+- Support performance analysis
+- Help identify sales patterns
+
+------------------------------------------------------------
+KPI Overview
+------------------------------------------------------------
+- Show total sales (current year and previous year)
+- Show total profits (current year and previous year)
+- Show total quantity sold (current year and previous year)
+
+------------------------------------------------------------
+Sales Trends
+------------------------------------------------------------
+- Monthly data for sales, profit, and quantity
+- Include current year and previous year
+- Highlight month with highest sales
+- Highlight month with lowest sales
+
+------------------------------------------------------------
+Product Subcategory Comparison
+------------------------------------------------------------
+- Compare sales by product subcategory
+- Include current year and previous year
+
+------------------------------------------------------------
+Weekly Trends for Sales & Profit
+------------------------------------------------------------
+- Weekly sales data (current year)
+- Weekly profit data (current year)
+- Show average weekly sales
+- Show average weekly profit
+- Highlight weeks above average
+- Highlight weeks below average
+
+------------------------------------------------------------
+Customer Distribution by Number of Orders
+------------------------------------------------------------
+- Show distribution of customers by number of orders
+- Identify customer behavior patterns
+
+------------------------------------------------------------
+Top Customers by Profit
+------------------------------------------------------------
+- List top 10 customers by profit
+- Include rank
+- Include number of orders
+- Include current sales
+- Include current profit
+- Include last order date
+
+------------------------------------------------------------
+Dashboard Dynamics
+------------------------------------------------------------
+- Allow year selection for historical data
+- Enable navigation between dashboards
+- Make charts interactive for filtering
+
+------------------------------------------------------------
+Data Filters
+------------------------------------------------------------
+- Filter by product category
+- Filter by product subcategory
+- Filter by region
+- Filter by state
+- Filter by city
+
+------------------------------------------------------------
+Suggested Visuals
+------------------------------------------------------------
+- Sparkline for compact trends
+- Line chart for monthly and weekly comparisons
+
+------------------------------------------------------------
+Sample Metrics
+------------------------------------------------------------
+- Previous year sales: $829K
+- Current year sales: $1.2M
