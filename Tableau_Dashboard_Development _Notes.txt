@@ -1,0 +1,134 @@
+Tableau Dashboard Development – Theoretical Notes
+
+STEP 1: Analyse Requirements
+Objective: Understand business needs to create effective visualizations.
+
+Collect Requirements
+- Gather information from stakeholders or business users.
+- Identify what business questions need to be answered.
+- Determine KPIs, metrics, and critical data points.
+- Document requirements clearly for reference to avoid misunderstandings later.
+
+Choose the Right Charts
+- Select chart types suitable for the data and analysis.
+  Examples:
+    * Bar charts – to compare data across categories.
+    * Line charts – to show trends over time.
+    * Pie charts – to show proportions of a whole.
+    * Scatter plots – to show correlation between variables.
+    * Heat maps – to show density or intensity of values.
+- Ensure chart choice aligns with user understanding and is easy to interpret.
+
+Draw Mockups
+- Sketch dashboard layouts on paper or using software tools like PowerPoint, Figma, or Tableau itself.
+- Identify where charts, KPIs, filters, and text boxes will be placed.
+- Helps visualize final design before actual development.
+- Consider spacing, hierarchy, and logical flow of information.
+
+Choose Colors
+- Select a color palette consistent with company branding or user preferences.
+- Use colors to highlight important data points or differentiate categories.
+- Avoid excessive or clashing colors.
+- Use color meaningfully: e.g., red for negative trends, green for positive trends.
+
+STEP 2: Build the Data Source
+Objective: Prepare and clean data to ensure accurate visualizations.
+
+Connect Data
+- Import datasets from sources like Excel, SQL, CSV, or cloud databases.
+- Ensure connectivity is stable, secure, and data is refreshed as needed.
+- Validate that the correct tables and fields are being pulled.
+
+Create Data Model
+- Define relationships between tables using joins (inner, left, right) or blending where necessary.
+- Ensure data consistency and integrity by checking primary and foreign keys.
+- Avoid data duplication or mismatch between tables.
+- Consider performance optimization when working with large datasets.
+
+Rename Fields/Tables
+- Use meaningful and user-friendly names for tables and fields.
+- Avoid technical jargon or cryptic abbreviations that users may not understand.
+- Keep naming consistent across dashboards.
+
+Check Data Types
+- Ensure numeric, string, date, and boolean fields are correctly defined.
+- Incorrect data types can lead to errors in calculations or aggregations.
+- Convert fields if necessary (e.g., string to date or number).
+
+Understand Data
+- Explore data using summary statistics: sum, average, min, max, distinct counts.
+- Check for missing values, outliers, or inconsistencies.
+- Document key insights about data quality and structure.
+
+STEP 3: Building Charts
+Objective: Create charts that accurately represent the data and answer business questions.
+
+Create Calculated Fields
+- Generate new metrics or KPIs from existing fields.
+  Examples:
+    * Profit Margin = Profit / Sales
+    * YoY Growth = (This Year - Last Year) / Last Year
+    * Cumulative Sales = Running Sum of Sales
+- Use calculated fields to simplify repetitive analysis.
+
+Build Charts
+- Use Tableau drag-and-drop functionality to create visualizations.
+- Choose appropriate dimensions and measures for each chart.
+- Apply filters or segments to focus on relevant data.
+- Combine multiple measures for comparative insights.
+
+Format Charts
+- Remove unnecessary lines and gridlines to make visuals cleaner.
+- Clean up axis and headers: shorten long labels, add units, rotate labels if necessary.
+- Coloring:
+    * Apply consistent and meaningful colors for categories and trends.
+    * Use diverging color palettes for positive/negative comparisons.
+- Tooltip:
+    * Provide additional context, explanations, or metrics when hovering over chart elements.
+    * Tooltips improve user understanding and interactivity.
+
+STEP 4: Building Dashboard
+Objective: Combine charts into a cohesive dashboard for users.
+
+Draw Mockups for Containers
+- Plan the layout for containers (vertical, horizontal, or tiled).
+- Decide placement of charts, filters, KPIs, and text boxes.
+- Consider logical grouping of related information.
+
+Build Container Structure
+- Use containers to organize charts logically.
+- Nested containers help with alignment, spacing, and responsive layout.
+- Ensure charts and elements align properly.
+
+Put All Charts Together
+- Drag and drop charts into the containers according to the planned layout.
+- Ensure dashboards are visually balanced and intuitive.
+- Prioritize the placement of key KPIs and insights.
+
+Format Dashboard
+- Distribute objects evenly: align charts, text, and containers for consistency.
+- Format colors, fonts, and chart sizes consistently.
+- Fit Entire View: ensure the dashboard fits standard screen resolutions and is responsive.
+- Add Legends: provide clarity for chart elements and color coding.
+- Add Spaces (Inner/Outer Padding) to improve readability and avoid clutter.
+
+Add Filters & Dynamic Elements
+- Enable interactivity through filters, parameters, and actions.
+- Examples:
+    * Drop-down filters for categories or regions.
+    * Date sliders for time-based analysis.
+    * Highlight actions to emphasize data points.
+- Dynamic dashboards allow users to explore data and drill down into details.
+
+Add Icons/Images
+- Include company logos, icons for KPIs, or images for better visualization.
+- Use visual cues to draw attention to important metrics.
+- Enhances user engagement and dashboard aesthetics.
+
+Tips for Effective Tableau Dashboards
+- Keep it simple and focused on the key metrics.
+- Avoid cluttering with too many charts, colors, or unnecessary visuals.
+- Use consistent color schemes for easier understanding.
+- Test dashboard for responsiveness and performance across devices.
+- Gather user feedback before final deployment and iterate based on suggestions.
+- Ensure dashboards answer the original business questions and provide actionable insights.
