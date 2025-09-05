@@ -1,0 +1,66 @@
+# 📊 Sales Dashboard Requirements
+
+## 🎯 Dashboard Purpose
+The purpose of the sales dashboard is to present an overview of sales metrics and trends in order to:
+- Analyze performance
+- Understand sales patterns and fluctuations
+
+---
+
+## 📌 Requirements
+
+### 1. KPI Overview
+- Display a summary of:
+  - Total sales
+  - Total profits
+  - Total quantity sold  
+- Include data for both:
+  - Current year
+  - Previous year
+
+---
+
+### 2. Sales Trends
+- Present monthly data for each KPI:
+  - Sales
+  - Profit
+  - Quantity  
+- Cover both current and previous years
+- Clearly highlight:
+  - Month with highest sales
+  - Month with lowest sales
+
+---
+
+### 3. Product Subcategory Comparison
+- Compare sales performance across product subcategories
+- Include data for:
+  - Current year
+  - Previous year
+
+---
+
+### 4. Weekly Trends for Sales & Profit
+- Present weekly data for:
+  - Sales
+  - Profit  
+- Display average weekly values
+- Highlight weeks:
+  - Above average
+  - Below average  
+- Use visual cues to emphasize trends
+
+---
+
+## 📈 Suggested Visuals
+- **Sparkline**: For compact trend visualization
+- **Line Chart**: For detailed monthly and weekly comparisons
+
+---
+
+## 💰 Sample Metrics
+- Total Sales: `$829K` (Previous Year), `$1.2M` (Current Year)
+
+---
+
+*Created for internal use to guide dashboard development and ensure alignment with business goals.*
